@@ -8,28 +8,38 @@ header {
     color: #F9FAF8;
     display: flex;
     flex-direction: row;
-    padding: 48px; 
+    padding: 24px 144px 96px;
+    gap: 48px; 
 }
 
 .header-left, .header-right {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 96px;
+}
+
+.header-right nav {
+    display: flex;
+    justify-content: right;
+    gap: 24px;
     
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 600;
     color: #F9FAF8;
 }
 
 a {
     text-decoration: none;
+    
 }
 
-header p, header a {
+header a {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 200;
 }
 
 .hero {
@@ -37,6 +47,14 @@ header p, header a {
     color: #F9FAF8;
     font-weight: 900;
 }
+
+.hero p {
+    font-weight: 200;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
 
 .header-left button {
     background-color: #3882F6;
