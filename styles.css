@@ -66,7 +66,7 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 113px;
+    padding-bottom: 96px;
 }
 
 .info-header {
@@ -88,7 +88,7 @@ header a {
     gap: 12px;
 }
 
-figcaption {
+.img-and-caption figcaption {
     text-align: center;
 }
 
@@ -96,3 +96,23 @@ figcaption {
     border-radius: 5px;
     border: 3px solid #3882F6;
 }
+
+.quotation-section {
+   background-color: #E5E7EB; 
+   padding: 48px 404px 96px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.attribution {
+   font-size: 18px;
+   font-weight: bold;
+   text-align: right;
+}
+
