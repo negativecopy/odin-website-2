@@ -11,6 +11,7 @@ header {
     flex-direction: row;
     padding: 24px 144px 96px;
     gap: 48px; 
+    justify-content: center;
 }
 
 .header-left, .header-right {
@@ -59,7 +60,9 @@ header a {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    width: 100px;
+    width: 96px;
+    padding: 4px;
+    border: hidden;
 }
 
 .information {
@@ -98,8 +101,11 @@ header a {
 }
 
 .quotation-section {
-   background-color: #E5E7EB; 
-   padding: 48px 404px 96px;
+   background-color: #E5E7EB;
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: space-between;
+   padding: 96px 528px 96px;
 }
 
 .quote {
@@ -108,11 +114,47 @@ header a {
     font-weight: 100;
     color: #1F2937;
     text-align: justify;
+    display: flex;
+
 }
 
 .attribution {
    font-size: 18px;
    font-weight: bold;
-   text-align: right;
+   display: flex; 
+   flex-flow: row;
+   justify-content: flex-end;
 }
 
+.action-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 36px 96px;
+    gap: 96px;
+    margin: 96px auto;
+    border-radius: 5px;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.action-section {
+    font-weight: 200;
+    font-size: 14px;
+    color: #E5E7EB;
+    margin: 72px auto;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 2px solid #F9FAF9;
+    width: 96px;
+    padding: 4px;
+}
